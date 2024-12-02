@@ -1,0 +1,85 @@
+/* IMPOSTAZIONI GENERALI */
+body {font-size: 1.5rem;
+background-image: url(../img/sfondo.png);
+padding: 2rem;
+font-family:"poppins",serif;
+line-height: 1.5;}
+
+/* HEADER */
+header {align-items: center;
+    background-color: aqua;
+    padding: 2rem; 
+    color: white; 
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+div img{
+    margin-bottom: 1rem;
+}
+header nav ul{margin-top: 2rem;
+
+}
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+ul li a::before{
+    content: " => ";
+}
+ul li a::after{
+    content: " <= ";
+}
+/* MAIN */
+main {
+    background-color: white;
+    text-align: center;
+
+}
+#
+/* ELEMENTI NEL MAIN - ARTICLE */
+#mario{color: rgb(216, 209, 209);
+margin: 30%;}
+article h1{font-weight: bold;}
+article code{background-color: rgb(207, 207, 207);
+border-radius: 20%;
+border-color: grey;}
+
+section{background-color: rgb(214, 207, 207);
+text-align: center;}
+#nov{text-align: center;
+font-weight: bold;}
+section input{
+    border-bottom:1px dotted black;
+}
+section button{
+    background-color:rgb(120, 194, 247);
+    color: white;
+}
+#diff{font-weight: bold;
+text-align: center;}
+
+
+
+/* TABELLE */
+#tabella{text-align: center;
+    background-color: rgb(134, 134, 240);
+    color: white;
+
+
+}
+/* FORM */
+{}
+/* ELEMENTI NELL' ASIDE */
+aside{text-align: center;margin: 30%;}
+aside h2{
+    font-weight: bold;
+}
+aside a{
+    background-color: rgb(219, 205, 205);
+}
+
+/* FOOTER */
+footer{text-align: center;
+    margin: 30%;
+background-color: rgba(14, 136, 136, 0.668);}
