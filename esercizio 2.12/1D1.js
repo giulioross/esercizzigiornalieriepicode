@@ -41,9 +41,8 @@ console.log(num3)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let x=giulioross
-let num4=12
-console.log(x+num4)
+let x=12
+console.log(x)
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
@@ -59,8 +58,8 @@ console.log(myName+cognome)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let num5=4
-console.log(num4-num5)
+let num5=4-x
+console.log(num5)
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
  Verifica che name1 sia diversa da name2 (suggerimento: è la stessa cosa di verificare che la loro uguaglianza sia falsa).
@@ -70,4 +69,4 @@ console.log(num4-num5)
 /* SCRIVI QUI LA TUA RISPOSTA */
 let name1="john"
 let name2="John"
-console.log(name1!=name2)
+console.log(name1!=name2) 
