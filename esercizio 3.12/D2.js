@@ -7,16 +7,16 @@
 let num=2
 let num1=4
 if(num<num1){
-    console.log(num1èpiugrande)
-}else{console.log(num1èpiupiccolo)}
+    console.log("num1 è piu grande")
+}else{console.log("num1 è piu piccolo")}
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let num2=6
-if(6!=5){console.log(notequal)}
-else{console.log(equal)}
+if(6!=5){console.log("not equal")}
+else{console.log("equal")}
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
 */
@@ -45,9 +45,9 @@ else{
 /* SCRIVI QUI LA TUA RISPOSTA */
 let totalShoppingCart
 if(totalShoppingCart>50){
-  console.log(spedizioneGratuita)
+  console.log("spedizione Gratuita")
 }else{
-  console.log(spedizione10$)
+  console.log("spedizione 10$")
 }
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
@@ -58,9 +58,9 @@ if(totalShoppingCart>50){
 let sconto = totalShoppingCart * 0.20;
 let totalShoppingCart1
 if(totalShoppingCart>50){
-  console.log(spedizioneGratuita)
+  console.log("spedizione Gratuita")
 }else{
-  console.log(spedizione10$)
+  console.log("spedizione 10$")
 }
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
@@ -87,9 +87,9 @@ if(x=Number){
 /* SCRIVI QUI LA TUA RISPOSTA */
 let y=4
 if(4%2===0){
-  console.log(ilNumeroèPari)
+  console.log("il Numero è Pari")
 }else{
-  console.log(ilNumeroèDispari)
+  console.log("il Numero è Dispari")
 }
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
