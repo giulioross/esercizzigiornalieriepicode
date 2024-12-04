@@ -151,7 +151,7 @@ const starWarsCharacters = [
     Utilizza uno switch statement per inserire uno ad uno gli oggetti dei personaggi di "starWarsCharacters" negli array relativi al colore degli occhi precedentemente creati.
     Ogni personaggio dovrà finire nell'array corrispondente al suo colore degli occhi (al valore della sua proprietà "eye_color").
   */
-  for (const element of object) {
+  for (const element of obj) {
     let obj =element
     switch (obj.eye_color) {
       case "blue":eyeColor.blue.push(obj);break;
@@ -163,7 +163,7 @@ const starWarsCharacters = [
         break;
     }
   }
-  console.log(eyecolor)
+  console.log(eyeColor)
   
   /* ESERCIZIO 6
     Usa un while loop per calcolare la massa totale dell'equipaggio. Salvala in una variabile chiamata "crewMass".
